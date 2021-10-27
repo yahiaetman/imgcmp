@@ -7,7 +7,7 @@ This tool compares between two images pixel by pixel. The features of this tool 
 ## How it works
 
 For each pixel, the channels are compared with their counterparts.
-If the value error for any channel exceeds the threshold, the whole pixel is considered different. If the number of different pixels exceeds the specificied limit, the result is a mismatch. The exit code will be 0 if the images match and -1 if they don't.
+If the value error for any channel exceeds the threshold, the whole pixel is considered different. If the number of different pixels exceeds the specified limit, the result is a mismatch. The exit code will be 0 if the images match and -1 if they don't.
 
 When generating an error image, channels that don't pass the threshold will be kept 0. Otherwise the channel's value will be 128 (half intensity) plus half the error value.
 
@@ -35,6 +35,10 @@ Options:
 | `image1.png` | `image2.png` | `difference.png` |
 
 Image source: [Globe and high court (Spot the difference).jpg](https://commons.wikimedia.org/wiki/File:Globe_and_high_court_(Spot_the_difference).jpg)
+
+## Binaries
+
+Windows binaries (64-bit only) are available in the [Releases](https://github.com/yahiaetman/imgcmp/releases).
 
 ## Included Libraries
 

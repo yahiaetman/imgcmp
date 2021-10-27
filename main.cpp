@@ -17,7 +17,7 @@ const char* HELP =
     "This tool compares between two images pixel by pixel.\n"
     "For each pixel, the channels are compared with their counterparts.\n"
     "If the value error for any channel exceeds the threshold, the whole pixel is considered different.\n"
-    "If the number of different pixels exceeds the specificied limit, the result is a mismatch.\n"
+    "If the number of different pixels exceeds the specified limit, the result is a mismatch.\n"
     "The exit code will be 0 if the images match and -1 if they don't.\n"
     "When generating an error image, channels that don't pass the threshold will be kept 0.\n"
     "Otherwise the channel's value will be 128 (half intensity) plus half the error value.\n"
