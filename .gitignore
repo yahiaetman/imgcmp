@@ -1,0 +1,6 @@
+# VS Code Settings
+.vscode/
+
+# Build files
+bin/
+build/
